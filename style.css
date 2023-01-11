@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: grey;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+.name h1{
+    text-align: center;
+    padding: 5px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gray;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+.show{
+    margin-top: 40px;
+}
+.vision{
+    text-align: center;
+    margin: 20px;
+}
+.vision p{
+    margin-top: 20px;
+}
+.mission{
+    text-align: center;
+    margin: 20px;
+}
+.mission p{
+    margin-top: 20px;
+}
+.foot{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.foot .infoo{
+    color: white;
+    display: flex;
+    flex-direction: row;
+   
+}
+.foot .infoo p{
+    padding: 10px;
+}
